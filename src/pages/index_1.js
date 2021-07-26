@@ -1,15 +1,15 @@
 // Step 1: Import your component
 import * as React from 'react'
-
-//using Layout instead of Link
-//import { Link } from 'gatsby'
-import Layout from '../components/layout'
+import { Link } from 'gatsby'
 // Step 2: Define your component
 const IndexPage = () => {
     return (
-        <Layout pageTitle="TXO Home Page">
+        <main>
+            <title>TXO Home Page</title>
+            <h1>TXO Home Page </h1>
+            <Link to="/about">About</Link>
             <p>Hi there! This is TXO Home Page, which is built with Gatsby.</p>
-        </Layout>
+        </main>
     )
 }
 // Step 3: Export your component
